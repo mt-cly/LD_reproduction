@@ -15,6 +15,6 @@
 * In 'evaluate.py', the function 'get_next_anno_point' will return the center of error region (like fca,fbrs), while the function 'get_next_anno_point_prob' will return sampled nextclick following the description of LD paper.
 * In 'our_func_cvpr18.py', the function 'our_func' is not useful for my evaluation, so I revise it in 'cly_our_func'. This function is to predict segmentation base on the input.
 
-tips for results:
+# tips for results:
 * SBD result exists gap with paper report(mine:SBD@0.85=8.8,  paper :SBD@0.85=7.41)
 * the result of COCO_Mal: (mine:COCO@0.85=7.1; paper :COCO@0.85=7.86) this gap may be caused by different COCO_MVal datasets, LD sample 800 images by themself.
